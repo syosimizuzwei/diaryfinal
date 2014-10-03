@@ -13,7 +13,7 @@
     IBOutlet UILabel * onelabel;
     
     int first ;
-    
+    int number;
     
     
     
@@ -29,6 +29,7 @@
 -(IBAction)nine;
 -(IBAction)zero;
 -(IBAction)cancel;
--(IBAction)set;
+-(IBAction)go;
+-(IBAction)clear;
 
 @end

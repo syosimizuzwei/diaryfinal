@@ -48,8 +48,8 @@
 
 
 - (void)viewWillAppear:(BOOL)animated{
-    NSUserDefaults *defoults=[NSUserDefaults standardUserDefaults];
-    NSString* first=[defoults objectForKey:@"save"];
+    NSUserDefaults *ud=[NSUserDefaults standardUserDefaults];
+
    
     
     
@@ -115,6 +115,14 @@
     onelabel.text=[NSString stringWithFormat:@"%d",first];
 
   }
+
+-(IBAction)set{
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    [ud setInteger:(NSInteger)first
+            forKey:@"pass"];
+    [ud synchronize];
+}
+
 
 
 

@@ -30,7 +30,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated{
-//    NSUserDefaults *defoults=[NSUserDefaults standardUserDefaults];
+    
     
     
     
@@ -100,10 +100,20 @@
 
 
 
-
-
-
-
+-(IBAction)go{
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    int number = [ud integerForKey:@"pass"];
+    if(first!=number){
+        UIAlertView *alert =
+        [[UIAlertView alloc]
+         initWithTitle@"タイトル"
+         message:@"メッセージ"
+         delegate:nil
+         cancelButtonTitle:nil
+         otherButtonTitles:@"OK", nil
+         ];
+    }
+}
 
 
 
