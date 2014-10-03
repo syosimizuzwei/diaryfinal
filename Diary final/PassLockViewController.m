@@ -104,14 +104,14 @@
     NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
     int number = [ud integerForKey:@"pass"];
     if(first!=number){
-        UIAlertView *alert =
-        [[UIAlertView alloc]
-         initWithTitle@"タイトル"
-         message:@"メッセージ"
-         delegate:nil
-         cancelButtonTitle:nil
-         otherButtonTitles:@"OK", nil
-         ];
+        
+        //パスワードが違う場合
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"エラー" message:@"ログインできません" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+        [alert show];
+    }else
+    {
+        //パスパードがあっていた場合
+        
     }
 }
 
