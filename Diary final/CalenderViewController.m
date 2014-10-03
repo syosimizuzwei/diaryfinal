@@ -24,8 +24,13 @@
 }
 
 
-- (void)didReceiveMemoryWarning
+-(void)viewDidLoad
 {
+    [super viewDidLoad];
+}
+
+
+- (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -40,9 +45,8 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+-(void)viewWillAppear:(BOOL)animated{
+    
     
     /* -- カレンダーを作って貼り付け -- */
 	CKCalendarView *calendar = [[CKCalendarView alloc] init];
