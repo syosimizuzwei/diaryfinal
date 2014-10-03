@@ -111,8 +111,10 @@
     }else
     {
         //パスパードがあっていた場合
-        //hoge
-//        [self presentmodalViewController:CalenderViewController animated:YES];
+        
+       //[self presentmodalViewController:CalenderViewController animated:YES];
+        
+        [self presentmodalViewController :(UIViewController *)CalenderViewController animated:(BOOL)animated]
     }
 }
 
@@ -123,7 +125,10 @@
 
 
 
-
+-(IBAction)clear{
+    first=0;
+    onelabel.text=[NSString stringWithFormat:@"%d",first];
+}
 
 
 

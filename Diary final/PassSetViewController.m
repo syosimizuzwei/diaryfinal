@@ -123,6 +123,10 @@
     [ud synchronize];
 }
 
+-(IBAction)clear{
+    first=0;
+    onelabel.text=[NSString stringWithFormat:@"%d",first];
+}
 
 
 

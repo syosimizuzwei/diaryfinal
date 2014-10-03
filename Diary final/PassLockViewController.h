@@ -28,7 +28,6 @@
 -(IBAction)eight;
 -(IBAction)nine;
 -(IBAction)zero;
--(IBAction)cancel;
 -(IBAction)go;
 -(IBAction)clear;
 
