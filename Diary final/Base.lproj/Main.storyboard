@@ -50,7 +50,7 @@
                         <color key="backgroundColor" red="0.78431379800000001" green="0.69019609689999994" blue="0.078431375319999996" alpha="1" colorSpace="deviceRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="diary_entry" rowHeight="88" id="vdG-hW-LNg">
-                                <rect key="frame" x="0.0" y="86" width="320" height="88"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vdG-hW-LNg" id="BEi-0o-7gg">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="87"/>
@@ -98,7 +98,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wDh-WH-ExU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="242" y="60"/>
+            <point key="canvasLocation" x="474" y="68"/>
         </scene>
         <!--Write View Controller - 新規作成-->
         <scene sceneID="xg7-SA-jdM">
@@ -366,6 +366,9 @@
                                 <state key="normal" title="clear">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="clear" destination="H32-6X-9Be" eventType="touchUpInside" id="j9t-bN-j2o"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oLZ-eA-cOK">
                                 <rect key="frame" x="39" y="518" width="56" height="30"/>
@@ -373,6 +376,9 @@
                                 <state key="normal" title="Cacncel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="M63-u6-Cnf" kind="modal" id="eEe-dO-yyD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h0u-YB-PTN">
                                 <rect key="frame" x="238" y="518" width="30" height="30"/>
@@ -381,7 +387,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HAN-7e-ddt" kind="modal" id="mxa-7f-29X"/>
+                                    <action selector="go" destination="H32-6X-9Be" eventType="touchUpInside" id="1mQ-9P-s0j"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -394,7 +400,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rTr-fd-6bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-857" y="322"/>
+            <point key="canvasLocation" x="-877" y="652"/>
         </scene>
         <!--Pass Set View Controller-->
         <scene sceneID="QwU-Wg-bvY">
@@ -540,7 +546,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C47-zb-Hbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-765" y="-47"/>
+            <point key="canvasLocation" x="-877" y="3"/>
         </scene>
         <!--Calender View Controler-->
         <scene sceneID="EWC-5Z-cfU">
@@ -551,10 +557,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="MXq-Mf-Zoe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFs-WI-eRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-26" y="948"/>
+            <point key="canvasLocation" x="40" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="M3x-gZ-4Kw">
@@ -564,12 +571,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="hzR-Lp-DKC" kind="relationship" relationship="rootViewController" id="Xim-hy-cdf"/>
+                        <segue destination="cGs-ck-dGj" kind="relationship" relationship="rootViewController" id="F3z-1L-tGI"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ps6-gb-zoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-188" y="60"/>
+            <point key="canvasLocation" x="-410" y="60"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -578,6 +585,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="6dn-4Z-1SD"/>
+        <segue reference="ihH-mc-dBP"/>
+        <segue reference="eEe-dO-yyD"/>
     </inferredMetricsTieBreakers>
 </document>
