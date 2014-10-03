@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		ED1EB63A19930B80001E5473 /* LookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1EB63919930B80001E5473 /* LookViewController.m */; };
 		ED81DA5C19946713000BB725 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED81DA5B19946713000BB725 /* icon.png */; };
+		ED9C6D3619B9D1F200F2FDEC /* PassLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9C6D3519B9D1F200F2FDEC /* PassLockViewController.m */; };
+		ED9C6D3C19C30BD100F2FDEC /* PassSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9C6D3B19C30BD100F2FDEC /* PassSetViewController.m */; };
 		EDE28DA9198F224B000D8F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE28DA8198F224B000D8F9B /* Foundation.framework */; };
 		EDE28DAB198F224B000D8F9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE28DAA198F224B000D8F9B /* CoreGraphics.framework */; };
 		EDE28DAD198F224B000D8F9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE28DAC198F224B000D8F9B /* UIKit.framework */; };
@@ -55,6 +57,8 @@
 		EDE28E481990A27D000D8F9B /* MagicalRecord+ShorthandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE28E281990A27D000D8F9B /* MagicalRecord+ShorthandSupport.m */; };
 		EDE28E491990A27D000D8F9B /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE28E2A1990A27D000D8F9B /* MagicalRecord.m */; };
 		EDE28E4A1990A27D000D8F9B /* MagicalRecord.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EDE28E2F1990A27D000D8F9B /* MagicalRecord.podspec */; };
+		EDEC3A4919DEB16100072850 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEC3A4819DEB16100072850 /* CKCalendarView.m */; };
+		EDEC3A4C19DEB22A00072850 /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEC3A4B19DEB22A00072850 /* CalenderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		ED1EB63819930B80001E5473 /* LookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookViewController.h; sourceTree = "<group>"; };
 		ED1EB63919930B80001E5473 /* LookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookViewController.m; sourceTree = "<group>"; };
 		ED81DA5B19946713000BB725 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		ED9C6D3419B9D1F200F2FDEC /* PassLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassLockViewController.h; sourceTree = "<group>"; };
+		ED9C6D3519B9D1F200F2FDEC /* PassLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassLockViewController.m; sourceTree = "<group>"; };
+		ED9C6D3A19C30BD100F2FDEC /* PassSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassSetViewController.h; sourceTree = "<group>"; };
+		ED9C6D3B19C30BD100F2FDEC /* PassSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassSetViewController.m; sourceTree = "<group>"; };
 		EDE28DA5198F224B000D8F9B /* Diary final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diary final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE28DA8198F224B000D8F9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EDE28DAA198F224B000D8F9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,6 +163,10 @@
 		EDE28E2D1990A27D000D8F9B /* MagicalRecordShorthand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalRecordShorthand.h; sourceTree = "<group>"; };
 		EDE28E2E1990A27D000D8F9B /* CoreData+MagicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+MagicalRecord.h"; sourceTree = "<group>"; };
 		EDE28E2F1990A27D000D8F9B /* MagicalRecord.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MagicalRecord.podspec; sourceTree = "<group>"; };
+		EDEC3A4719DEB16100072850 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		EDEC3A4819DEB16100072850 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
+		EDEC3A4A19DEB22A00072850 /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderViewController.h; sourceTree = "<group>"; };
+		EDEC3A4B19DEB22A00072850 /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +197,8 @@
 		EDE28D9C198F224B000D8F9B = {
 			isa = PBXGroup;
 			children = (
+				EDEC3A4719DEB16100072850 /* CKCalendarView.h */,
+				EDEC3A4819DEB16100072850 /* CKCalendarView.m */,
 				ED81DA5B19946713000BB725 /* icon.png */,
 				EDE28DEB1990A136000D8F9B /* _DiaryData.h */,
 				EDE28DEC1990A136000D8F9B /* _DiaryData.m */,
@@ -225,6 +239,12 @@
 				EDE28DB7198F224B000D8F9B /* AppDelegate.h */,
 				EDE28DB8198F224B000D8F9B /* AppDelegate.m */,
 				EDE28DBA198F224B000D8F9B /* Main.storyboard */,
+				EDEC3A4A19DEB22A00072850 /* CalenderViewController.h */,
+				EDEC3A4B19DEB22A00072850 /* CalenderViewController.m */,
+				ED9C6D3A19C30BD100F2FDEC /* PassSetViewController.h */,
+				ED9C6D3B19C30BD100F2FDEC /* PassSetViewController.m */,
+				ED9C6D3419B9D1F200F2FDEC /* PassLockViewController.h */,
+				ED9C6D3519B9D1F200F2FDEC /* PassLockViewController.m */,
 				ED1EB63819930B80001E5473 /* LookViewController.h */,
 				ED1EB63919930B80001E5473 /* LookViewController.m */,
 				EDE28DDD198F27C5000D8F9B /* WriteViewController.h */,
@@ -476,6 +496,7 @@
 				EDE28E411990A27D000D8F9B /* NSPersistentStore+MagicalRecord.m in Sources */,
 				EDE28DEF1990A136000D8F9B /* _DiaryData.m in Sources */,
 				EDE28E451990A27D000D8F9B /* MagicalRecord+iCloud.m in Sources */,
+				EDEC3A4919DEB16100072850 /* CKCalendarView.m in Sources */,
 				EDE28E321990A27D000D8F9B /* NSEntityDescription+MagicalDataImport.m in Sources */,
 				EDE28DB9198F224B000D8F9B /* AppDelegate.m in Sources */,
 				EDE28DEA19909C66000D8F9B /* Model.xcdatamodeld in Sources */,
@@ -483,7 +504,9 @@
 				EDE28E3F1990A27D000D8F9B /* NSManagedObjectContext+MagicalThreading.m in Sources */,
 				EDE28E3C1990A27D000D8F9B /* NSManagedObjectContext+MagicalObserving.m in Sources */,
 				EDE28E341990A27D000D8F9B /* NSObject+MagicalDataImport.m in Sources */,
+				EDEC3A4C19DEB22A00072850 /* CalenderViewController.m in Sources */,
 				EDE28DDF198F27C5000D8F9B /* WriteViewController.m in Sources */,
+				ED9C6D3619B9D1F200F2FDEC /* PassLockViewController.m in Sources */,
 				EDE28E301990A27D000D8F9B /* MagicalImportFunctions.m in Sources */,
 				EDE28E3A1990A27D000D8F9B /* NSManagedObject+MagicalRecord.m in Sources */,
 				EDE28E3E1990A27D000D8F9B /* NSManagedObjectContext+MagicalSaves.m in Sources */,
@@ -502,6 +525,7 @@
 				EDE28E351990A27D000D8F9B /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
 				EDE28DB5198F224B000D8F9B /* main.m in Sources */,
 				EDE28E401990A27D000D8F9B /* NSManagedObjectModel+MagicalRecord.m in Sources */,
+				ED9C6D3C19C30BD100F2FDEC /* PassSetViewController.m in Sources */,
 				EDE28E331990A27D000D8F9B /* NSNumber+MagicalDataImport.m in Sources */,
 				EDE28E391990A27D000D8F9B /* NSManagedObject+MagicalFinders.m in Sources */,
 			);

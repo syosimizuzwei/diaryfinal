@@ -156,17 +156,21 @@ NSURL *urlsecond= (NSURL*) [[asset valueForProperty:ALAssetPropertyURLs] valueFo
     
 }
 
+
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES]; // 選択状態の解除をします。
     
     _diaryid = [indexPath row];
+    
+    NSLog(@"diaryid == %d", _diaryid);
     
 }
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: forIndexPath:indexPath];
     
     // Configure the cell...
     
@@ -218,7 +222,12 @@ NSURL *urlsecond= (NSURL*) [[asset valueForProperty:ALAssetPropertyURLs] valueFo
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"toLookView"]){
         LookViewController *lvc = (LookViewController*)[segue destinationViewController];
-        lvc.diaryid =self.diaryid;
+        //lvc.diaryid = _diaryid;
+        
+        
+        
+        lvc.diaryid = [self.tableView.indexPathForSelectedRow row];
+        NSLog(@"sdjんゔぃうbゔぃwづ === %d", lvc.diaryid);
         //[self presentModalViewController:lvc animated:YES];
 
     }

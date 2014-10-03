@@ -51,6 +51,9 @@
     if(_diaryid>=0){
         NSLog(@"%d", _diaryid);
         diaryListArray = [NSMutableArray arrayWithArray:[DiaryData MR_findAll]];
+        
+        NSLog(@"dairyListArray == %@", diaryListArray);
+        
         DiaryData *dd = [diaryListArray objectAtIndex:_diaryid ] ;
         NSLog(@"%@ %@ %@", [dd title], [dd main], [dd photoimage]);
         
@@ -86,6 +89,7 @@
     
     //共通の処理はここに書く
     //つまり viewWillAppear:(BOOL)animated の方はオーバーライドすべきではない
+    
 }
 
 

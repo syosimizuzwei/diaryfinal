@@ -30,14 +30,14 @@
     // Do any additional setup after loading the view.
     
     
-    _diaryid=0;
+    //_diaryid=0;
 }
 - (void)viewWillAppear:(BOOL)animated{
 
 
     //cellForRowAtIndexPath:(NSIndexPath *)
     
-    NSLog(@"%d", _diaryid);
+    NSLog(@"id ========= %d", _diaryid);
     diaryListArray = [NSMutableArray arrayWithArray:[DiaryData MR_findAll]];
     DiaryData *dd = [diaryListArray objectAtIndex:_diaryid ] ;
     NSLog(@"%@ %@ %@", [dd title], [dd main], [dd photoimage]);
