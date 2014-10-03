@@ -112,7 +112,7 @@
     {
         //パスパードがあっていた場合
         //hoge
-        [self presentmodalViewController:CalenderViewController animated:YES];
+//        [self presentmodalViewController:CalenderViewController animated:YES];
     }
 }
 

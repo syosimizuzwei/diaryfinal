@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "CKCalendarView.h"
+#import "DayGetter.h"//曜日表示用ファイル
+
+
 
 @interface CalenderViewController : UIViewController
 <CKCalendarDelegate>//CKカレンダーのデリゲートメソッド宣言

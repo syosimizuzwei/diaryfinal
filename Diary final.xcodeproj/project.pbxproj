@@ -59,6 +59,7 @@
 		EDE28E4A1990A27D000D8F9B /* MagicalRecord.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EDE28E2F1990A27D000D8F9B /* MagicalRecord.podspec */; };
 		EDEC3A4919DEB16100072850 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEC3A4819DEB16100072850 /* CKCalendarView.m */; };
 		EDEC3A4C19DEB22A00072850 /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEC3A4B19DEB22A00072850 /* CalenderViewController.m */; };
+		EDEC3A4F19DEE74700072850 /* DayGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEC3A4E19DEE74700072850 /* DayGetter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +168,8 @@
 		EDEC3A4819DEB16100072850 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
 		EDEC3A4A19DEB22A00072850 /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderViewController.h; sourceTree = "<group>"; };
 		EDEC3A4B19DEB22A00072850 /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderViewController.m; sourceTree = "<group>"; };
+		EDEC3A4D19DEE73100072850 /* DayGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayGetter.h; sourceTree = "<group>"; };
+		EDEC3A4E19DEE74700072850 /* DayGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayGetter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +242,8 @@
 				EDE28DB7198F224B000D8F9B /* AppDelegate.h */,
 				EDE28DB8198F224B000D8F9B /* AppDelegate.m */,
 				EDE28DBA198F224B000D8F9B /* Main.storyboard */,
+				EDEC3A4E19DEE74700072850 /* DayGetter.m */,
+				EDEC3A4D19DEE73100072850 /* DayGetter.h */,
 				EDEC3A4A19DEB22A00072850 /* CalenderViewController.h */,
 				EDEC3A4B19DEB22A00072850 /* CalenderViewController.m */,
 				ED9C6D3A19C30BD100F2FDEC /* PassSetViewController.h */,
@@ -520,6 +525,7 @@
 				EDE28E311990A27D000D8F9B /* NSAttributeDescription+MagicalDataImport.m in Sources */,
 				EDE28E491990A27D000D8F9B /* MagicalRecord.m in Sources */,
 				EDE28DF01990A136000D8F9B /* DiaryData.m in Sources */,
+				EDEC3A4F19DEE74700072850 /* DayGetter.m in Sources */,
 				ED1EB63A19930B80001E5473 /* LookViewController.m in Sources */,
 				EDE28E471990A27D000D8F9B /* MagicalRecord+Setup.m in Sources */,
 				EDE28E351990A27D000D8F9B /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
