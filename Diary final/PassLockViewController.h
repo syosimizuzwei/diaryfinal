@@ -10,23 +10,14 @@
 
 @interface PassLockViewController : UIViewController<UIAccelerometerDelegate>{
     
-     IBOutlet UILabel * onelabel;
-    IBOutlet UILabel * twolabel;
-
-    IBOutlet UILabel * threelabel;
-
-    IBOutlet UILabel * fourlabel;
-
+    IBOutlet UILabel * onelabel;
+    
     int first ;
-    int second ;
-
-    int third;
-    int fourth ;
-    int hantei;
+    
+    
     
     
 }
-
 -(IBAction)one;
 -(IBAction)two;
 -(IBAction)three;
@@ -37,7 +28,7 @@
 -(IBAction)eight;
 -(IBAction)nine;
 -(IBAction)zero;
-
-
+-(IBAction)cancel;
+-(IBAction)set;
 
 @end

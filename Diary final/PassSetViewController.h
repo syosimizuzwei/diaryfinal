@@ -12,19 +12,10 @@
 {
     
     IBOutlet UILabel * onelabel;
-    IBOutlet UILabel * twolabel;
-    
-    IBOutlet UILabel * threelabel;
-    
-    IBOutlet UILabel * fourlabel;
-    
+        
     int first ;
-    int second ;
-    
-    int third;
-    int fourth ;
-    int hantei;
-    NSString *save;
+   
+   
     
     
 }
