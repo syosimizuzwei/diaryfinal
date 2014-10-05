@@ -76,7 +76,7 @@
     
     
     /* -- 画面遷移 -- */
-    [self performSegueWithIdentifier:@"Detail" sender:self];
+    [self performSegueWithIdentifier:@"write" sender:self];
     
 }
 

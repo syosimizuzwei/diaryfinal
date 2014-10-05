@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Jc-DW-XYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-175" y="-512"/>
+            <point key="canvasLocation" x="-803" y="-592"/>
         </scene>
         <!--Diary List View Controller - Title-->
         <scene sceneID="VUV-JY-cDe">
@@ -90,7 +90,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="M63-u6-Cnf" kind="modal" id="Wux-si-ygo"/>
+                                    <segue destination="cGs-ck-dGj" kind="modal" id="JD7-GF-DQG"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -111,7 +111,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wDh-WH-ExU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="26"/>
+            <point key="canvasLocation" x="-902" y="-168"/>
         </scene>
         <!--Write View Controller - 新規作成-->
         <scene sceneID="xg7-SA-jdM">
@@ -195,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fLD-db-y74" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="568" y="-180"/>
+            <point key="canvasLocation" x="-552" y="508"/>
         </scene>
         <!--Look View Controller-->
         <scene sceneID="C4B-Rm-USO">
@@ -256,7 +256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ats-rQ-SP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="480" y="502"/>
+            <point key="canvasLocation" x="-878" y="966"/>
         </scene>
         <!--Pass Lock View Controller-->
         <scene sceneID="gi6-b7-NRJ">
@@ -414,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rTr-fd-6bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1591" y="582"/>
+            <point key="canvasLocation" x="-1840" y="574"/>
         </scene>
         <!--Pass Set View Controller-->
         <scene sceneID="QwU-Wg-bvY">
@@ -570,7 +570,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C47-zb-Hbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823" y="631"/>
+            <point key="canvasLocation" x="-1267" y="1015"/>
         </scene>
         <!--Calender View Controller-->
         <scene sceneID="EWC-5Z-cfU">
@@ -595,12 +595,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="MXq-Mf-Zoe"/>
                     <connections>
-                        <segue destination="HAN-7e-ddt" kind="modal" id="XJa-gd-GwN"/>
+                        <segue destination="HAN-7e-ddt" kind="modal" identifier="write" id="XJa-gd-GwN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFs-WI-eRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-816" y="-318"/>
+            <point key="canvasLocation" x="-1455" y="-346"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="M3x-gZ-4Kw">
@@ -615,7 +615,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ps6-gb-zoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-356" y="55"/>
+            <point key="canvasLocation" x="-1222" y="493"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -624,7 +624,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Wux-si-ygo"/>
+        <segue reference="JD7-GF-DQG"/>
+        <segue reference="GDu-m4-thf"/>
         <segue reference="ihH-mc-dBP"/>
     </inferredMetricsTieBreakers>
 </document>
