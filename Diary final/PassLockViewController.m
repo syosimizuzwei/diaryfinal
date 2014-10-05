@@ -109,6 +109,8 @@
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"エラー" message:@"ログインできません" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
         [alert show];
         [self performSegueWithIdentifier:@"start" sender:nil];
+                
+        
     }else
     {
         //パスパードがあっていた場合

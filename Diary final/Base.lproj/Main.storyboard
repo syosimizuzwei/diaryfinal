@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Jc-DW-XYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1346" y="16"/>
+            <point key="canvasLocation" x="-175" y="-512"/>
         </scene>
         <!--Diary List View Controller - Title-->
         <scene sceneID="VUV-JY-cDe">
@@ -81,6 +81,19 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Title" id="2mw-fa-Zh8">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="iMa-QZ-OT3">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lcb-m9-ZNE">
+                                <rect key="frame" x="16" y="5" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="M63-u6-Cnf" kind="modal" id="Wux-si-ygo"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Kh2-6r-hhq">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qae-jj-0iP">
                                 <rect key="frame" x="233" y="5" width="71" height="33"/>
@@ -98,7 +111,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wDh-WH-ExU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="362" y="46"/>
+            <point key="canvasLocation" x="74" y="26"/>
         </scene>
         <!--Write View Controller - 新規作成-->
         <scene sceneID="xg7-SA-jdM">
@@ -182,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fLD-db-y74" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1276" y="-116"/>
+            <point key="canvasLocation" x="568" y="-180"/>
         </scene>
         <!--Look View Controller-->
         <scene sceneID="C4B-Rm-USO">
@@ -243,7 +256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ats-rQ-SP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="780" y="314"/>
+            <point key="canvasLocation" x="480" y="502"/>
         </scene>
         <!--Pass Lock View Controller-->
         <scene sceneID="gi6-b7-NRJ">
@@ -401,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rTr-fd-6bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-863" y="682"/>
+            <point key="canvasLocation" x="-1591" y="582"/>
         </scene>
         <!--Pass Set View Controller-->
         <scene sceneID="QwU-Wg-bvY">
@@ -557,7 +570,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C47-zb-Hbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1067" y="-21"/>
+            <point key="canvasLocation" x="-823" y="631"/>
         </scene>
         <!--Calender View Controller-->
         <scene sceneID="EWC-5Z-cfU">
@@ -566,6 +579,18 @@
                     <view key="view" contentMode="scaleToFill" id="8gO-h8-ySb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v5Z-Dp-YeQ">
+                                <rect key="frame" x="143" y="487" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="M63-u6-Cnf" kind="modal" id="GDu-m4-thf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="MXq-Mf-Zoe"/>
@@ -575,7 +600,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFs-WI-eRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-480" y="-26"/>
+            <point key="canvasLocation" x="-816" y="-318"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="M3x-gZ-4Kw">
@@ -590,7 +615,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ps6-gb-zoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-28" y="-21"/>
+            <point key="canvasLocation" x="-356" y="55"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -599,7 +624,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="Wux-si-ygo"/>
         <segue reference="ihH-mc-dBP"/>
-        <segue reference="eEe-dO-yyD"/>
     </inferredMetricsTieBreakers>
 </document>
