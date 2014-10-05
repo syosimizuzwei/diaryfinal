@@ -108,14 +108,13 @@
         //パスワードが違う場合
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"エラー" message:@"ログインできません" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
         [alert show];
+        [self performSegueWithIdentifier:@"start" sender:nil];
     }else
     {
         //パスパードがあっていた場合
-        
+        [self performSegueWithIdentifier:@"start" sender:self];
        //[self presentmodalViewController:CalenderViewController animated:YES];
-        
-        [self presentmodalViewController :(UIViewController *)CalenderViewController animated:(BOOL)animated]
-    }
+           }
 }
 
 
