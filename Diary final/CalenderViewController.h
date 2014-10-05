@@ -7,13 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+
 #import "CKCalendarView.h"
+
 #import "DayGetter.h"//曜日表示用ファイル
 
+#import "DiaryListViewController.h"
 
 
-@interface CalenderViewController : UIViewController
-<CKCalendarDelegate>//CKカレンダーのデリゲートメソッド宣言
+@interface CalenderViewController : UIViewController<CKCalendarDelegate>
+//CKカレンダーのデリゲートメソッド宣言
 {
     /* -- DetailViewControllerに渡すNSDate -- */
     NSDate *sendDate;

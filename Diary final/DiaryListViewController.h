@@ -16,9 +16,11 @@
 {
 
     NSArray *diaryListArray;
-    IBOutlet UIImageView *diaryImage;;
-    IBOutlet UILabel *titlelabel;;
+    IBOutlet UIImageView *diaryImage;
+    IBOutlet UILabel *titlelabel;
 }
+-(IBAction)back;
+
 
 @property(nonatomic) int diaryid;
 @property(nonatomic) int reid;

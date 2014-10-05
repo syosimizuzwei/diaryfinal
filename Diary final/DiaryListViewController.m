@@ -251,7 +251,9 @@ NSURL *urlsecond= (NSURL*) [[asset valueForProperty:ALAssetPropertyURLs] valueFo
 
 
 
-
+-(IBAction)back{
+    
+}
 
 
 
