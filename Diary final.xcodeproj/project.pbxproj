@@ -246,6 +246,8 @@
 				EDEC3A4D19DEE73100072850 /* DayGetter.h */,
 				EDEC3A4A19DEB22A00072850 /* CalenderViewController.h */,
 				EDEC3A4B19DEB22A00072850 /* CalenderViewController.m */,
+				EDE28DE5198F5E41000D8F9B /* DiaryListViewController.h */,
+				EDE28DE6198F5E41000D8F9B /* DiaryListViewController.m */,
 				ED9C6D3A19C30BD100F2FDEC /* PassSetViewController.h */,
 				ED9C6D3B19C30BD100F2FDEC /* PassSetViewController.m */,
 				ED9C6D3419B9D1F200F2FDEC /* PassLockViewController.h */,
@@ -254,8 +256,6 @@
 				ED1EB63919930B80001E5473 /* LookViewController.m */,
 				EDE28DDD198F27C5000D8F9B /* WriteViewController.h */,
 				EDE28DDE198F27C5000D8F9B /* WriteViewController.m */,
-				EDE28DE5198F5E41000D8F9B /* DiaryListViewController.h */,
-				EDE28DE6198F5E41000D8F9B /* DiaryListViewController.m */,
 				EDE28DC0198F224B000D8F9B /* Images.xcassets */,
 				EDE28DAF198F224B000D8F9B /* Supporting Files */,
 			);

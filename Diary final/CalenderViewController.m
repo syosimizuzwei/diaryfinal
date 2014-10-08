@@ -109,7 +109,7 @@
     if ([segue.identifier isEqualToString:@"Detail"]) {
         DetailViewController *detailViewController = segue.destinationViewController;
         /* -- DetailViewControllerに値を渡す -- */
-        detailViewController.receivedDate = sendDate;
+        DiaryListViewController.receivedDate = sendDate;
     }
 }
 

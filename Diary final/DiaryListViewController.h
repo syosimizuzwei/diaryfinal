@@ -18,10 +18,12 @@
     NSArray *diaryListArray;
     IBOutlet UIImageView *diaryImage;
     IBOutlet UILabel *titlelabel;
+    NSString *str;//日付の文字列を格納する変数
+
 }
 -(IBAction)back;
 
-
+@property (nonatomic)NSDate *receivedDate;
 @property(nonatomic) int diaryid;
 @property(nonatomic) int reid;
 @end
