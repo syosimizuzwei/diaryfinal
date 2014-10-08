@@ -61,6 +61,40 @@
     [self.tableView reloadData];
     
 }
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    
+    /* -- 受け取ったデータをローカル変数に -- */
+    NSDate *date = _receivedDate;
+    
+    /* -- 生データを分かりやすいフォーマットに -- */
+    /* -- 参考文献(http://age-d.com/alog/2012/07/ios-tips-nsdate/) -- */
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *dateComps = [calendar components:NSYearCalendarUnit |
+                                   NSMonthCalendarUnit  |
+                                   NSDayCalendarUnit    |
+                                   NSHourCalendarUnit   |
+                                   NSMinuteCalendarUnit |
+                                   NSSecondCalendarUnit
+                                              fromDate:date];
+    NSLog(@"現在は %d年 %02d月 %02d日 %02d時 %02d分 %02d秒",
+          (int)dateComps.year,
+          (int)dateComps.month,
+          (int)dateComps.day,
+          (int)dateComps.hour,
+          (int)dateComps.minute,
+          (int)dateComps.second);
+    
+    /* -- 受け渡されたデータをタイトルに表示 -- */
+    str = [NSString stringWithFormat:@"%d年%d月%d日", (int)dateComps.year, (int)dateComps.month, (int)dateComps.day];
+    self.navigationItem.title = str;
+    
+    
+    /* -- ユーザーデフォルトから日付のキーでデータを取得し、ボタンの背景画像に -- */
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    NSData *imageData = [ud objectForKey:str];
+}
 
 - (void)didReceiveMemoryWarning
 {
