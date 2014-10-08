@@ -96,22 +96,22 @@
 
 - (void)calendar:(CKCalendarView *)calendar configureDateItem:(CKDateItem *)dateItem forDate:(NSDate *)date {
     
-    /* -- 選択した日付のアイテムの色を変更する場合 -- */
-    //    if ([_chosenDates containsObject:date]) {
-    //        dateItem.backgroundColor = [UIColor greenColor];
-    //    }
+     //-- 選択した日付のアイテムの色を変更する場合 --
+       if ([_chosenDates containsObject:date]) {
+            dateItem.backgroundColor = [UIColor greenColor];
+        }
 }
 
 
 //#pragma mark - 画面遷移
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-//{
-//    if ([segue.identifier isEqualToString:@"Detail"]) {
-//        DetailViewController *detailViewController = segue.destinationViewController;
-//        /* -- DetailViewControllerに値を渡す -- */
-//        detailViewController.receivedDate = sendDate;
-//    }
-//}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"Detail"]) {
+        DetailViewController *detailViewController = segue.destinationViewController;
+        /* -- DetailViewControllerに値を渡す -- */
+        detailViewController.receivedDate = sendDate;
+    }
+}
 
 
 @end
