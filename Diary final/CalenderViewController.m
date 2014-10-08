@@ -107,7 +107,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"Detail"]) {
-        DetailViewController *detailViewController = segue.destinationViewController;
+        DiaryListViewController *detailViewController = segue.destinationViewController;
         /* -- DetailViewControllerに値を渡す -- */
         DiaryListViewController.receivedDate = sendDate;
     }
