@@ -13,9 +13,10 @@
 @end
 
 @implementation DiaryListViewController
+@synthesize receivedDate;
 
-//@synthesize 
-//@synthesize
+
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -66,7 +67,7 @@
     [super viewWillAppear:YES];
     
     /* -- 受け取ったデータをローカル変数に -- */
-    NSDate *date = _receivedDate;
+    NSDate *date = receivedDate;
     
     /* -- 生データを分かりやすいフォーマットに -- */
     /* -- 参考文献(http://age-d.com/alog/2012/07/ios-tips-nsdate/) -- */
@@ -92,8 +93,8 @@
     
     
     /* -- ユーザーデフォルトから日付のキーでデータを取得し、ボタンの背景画像に -- */
-    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
-    NSData *imageData = [ud objectForKey:str];
+    NSUserDefaults *udtwo = [NSUserDefaults standardUserDefaults];
+    NSData *imageData = [udtwo objectForKey:str];
 }
 
 - (void)didReceiveMemoryWarning
@@ -267,12 +268,6 @@ NSURL *urlsecond= (NSURL*) [[asset valueForProperty:ALAssetPropertyURLs] valueFo
     }
     // Pass the selected object to the new view controller.
 }
-
-
-
-
-
-
 
 
 

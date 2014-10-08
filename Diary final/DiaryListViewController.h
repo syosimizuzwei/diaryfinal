@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AssetsLibrary/AssetsLibrary.h>
-#import "CKCalendarView.h"s
+#import "CKCalendarView.h"
 #import "DiaryData.h"
 #import "LookViewController.h"
 
