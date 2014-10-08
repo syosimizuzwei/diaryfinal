@@ -12,7 +12,7 @@
 #import "DiaryData.h"
 #import "LookViewController.h"
 
-@interface DiaryListViewController : UITableViewController
+@interface DiaryListViewController : UITableViewController<UINavigationControllerDelegate>
 {
 
     NSArray *diaryListArray;
