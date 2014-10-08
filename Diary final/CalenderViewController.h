@@ -21,6 +21,6 @@
     /* -- DetailViewControllerに渡すNSDate -- */
     NSDate *sendDate;
 }
-@property (nonatomic)NSDate *receivedDate;
+//@property (nonatomic)NSDate *receivedDate;
 
 @end

@@ -23,7 +23,7 @@
 }
 -(IBAction)back;
 
-@property (nonatomic)NSDate *receivedDate;
+@property(nonatomic)NSDate*receivedDate;
 @property(nonatomic) int diaryid;
 @property(nonatomic) int reid;
 @end
