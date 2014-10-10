@@ -50,7 +50,7 @@
                         <color key="backgroundColor" red="0.78431379800000001" green="0.69019609689999994" blue="0.078431375319999996" alpha="1" colorSpace="deviceRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="diary_entry" rowHeight="88" id="vdG-hW-LNg">
-                                <rect key="frame" x="0.0" y="22" width="320" height="88"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="88"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vdG-hW-LNg" id="BEi-0o-7gg">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="87"/>
@@ -624,8 +624,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="JD7-GF-DQG"/>
-        <segue reference="6dn-4Z-1SD"/>
-        <segue reference="1fj-tU-XCw"/>
+        <segue reference="rIV-7x-WOq"/>
+        <segue reference="eEe-dO-yyD"/>
+        <segue reference="ihH-mc-dBP"/>
     </inferredMetricsTieBreakers>
 </document>
