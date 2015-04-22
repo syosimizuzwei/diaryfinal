@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Jc-DW-XYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-803" y="-592"/>
+            <point key="canvasLocation" x="-2290" y="556"/>
         </scene>
         <!--Diary List View Controller - Title-->
         <scene sceneID="VUV-JY-cDe">
@@ -111,7 +111,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wDh-WH-ExU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-902" y="-168"/>
+            <point key="canvasLocation" x="-398" y="606"/>
         </scene>
         <!--Write View Controller - 新規作成-->
         <scene sceneID="xg7-SA-jdM">
@@ -195,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fLD-db-y74" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-552" y="508"/>
+            <point key="canvasLocation" x="128" y="780"/>
         </scene>
         <!--Look View Controller-->
         <scene sceneID="C4B-Rm-USO">
@@ -256,7 +256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ats-rQ-SP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-878" y="966"/>
+            <point key="canvasLocation" x="128" y="74"/>
         </scene>
         <!--Pass Lock View Controller-->
         <scene sceneID="gi6-b7-NRJ">
@@ -414,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rTr-fd-6bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1840" y="574"/>
+            <point key="canvasLocation" x="-1800" y="606"/>
         </scene>
         <!--Pass Set View Controller-->
         <scene sceneID="QwU-Wg-bvY">
@@ -570,7 +570,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C47-zb-Hbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1435" y="574"/>
+            <point key="canvasLocation" x="-1971" y="-246"/>
         </scene>
         <!--Calender View Controller-->
         <scene sceneID="EWC-5Z-cfU">
@@ -600,7 +600,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFs-WI-eRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1455" y="-346"/>
+            <point key="canvasLocation" x="-1321" y="606"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="M3x-gZ-4Kw">
@@ -615,7 +615,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ps6-gb-zoc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1222" y="493"/>
+            <point key="canvasLocation" x="-836" y="606"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -624,8 +624,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rIV-7x-WOq"/>
-        <segue reference="eEe-dO-yyD"/>
-        <segue reference="ihH-mc-dBP"/>
+        <segue reference="JD7-GF-DQG"/>
+        <segue reference="6dn-4Z-1SD"/>
+        <segue reference="GDu-m4-thf"/>
     </inferredMetricsTieBreakers>
 </document>
